@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+
+    <link rel="stylesheet" href="../style/index.css">
+    <script src="script.js" type="module"></script>
+</head>
+
+<body>
+
+<div class="container">
+     
+<section class="left__decor">
+
+    <div class="shape shape-circle-field shape-circle-top"></div>
+    <div class="triangle__decor"></div>
+    <div class="hero-content">
+        <h1 class="shape-field right__title">TO-DO LIST</h1>
+        <p class="shape-field subtitle">Web Application</p>
+    </div>
+        
+        <div class="shape shape-field shape-circle1-decor"></div>
+        <div class="shape shape-field shape-circle2-decor"></div>
+</section>
+
+     <aside class="sidebar">
+
+    <div class="todo" data-js-todo>
+        <div class="todo-header">
+           <h2 class="todo__title">ORGANIZE YOUR TASKS HERE</h2>
+        </div>
+        <form class="todo__form" data-js-todo-new-task-form>
+            <div class="todo__field field">
+<label for="new-task" class="field_label">New task title</label>
+<div class="field__control">
+<input type="text" id="new-task" placeholder=" " autocomplete="off" class="field_input" data-js-todo-new-task-input>
+<button class="button" type="submit">Add</button>
+
+</div>
+
+            </div>
+        </form>
+         <form class="todo__form" data-js-todo-search-task-form>
+            <div class="todo__field field">
+<label for="rearch-task" class="field_label">Search task</label>
+<input type="search" id="search-task" placeholder=" " autocomplete="off" class="field_input" data-js-todo-search-task-input>
+
+            </div>
+        </form>
+        <div class="todo__info">
+             <div class="todo-total-tasks">Total search: <span data-js-todo-total-tasks>0</span> </div>
+        <button class="todo-delete-all-tasks" type="button" data-js-todo-delete-all-button>Delete All</button>
+        </div>
+       <ul class="todo__list" data-js-todo-list>
+               
+       </ul>
+       <div class="todo__empty-message" data-js-todo-empty-message>
+        There are not tasks yet
+       </div>
+    </div>
+     </aside>
+ <div class="shape shape-circle-field shape-circle1-aside-top"></div>
+ <div class="shape shape-circle-field shape-circle2-aside-top"></div>
+    <div class="global-shapes">
+ <div class="shape shape-circle-field shape-circle-below"></div>
+    </div>
+
+ </div>
+
+</body>
+</html>
