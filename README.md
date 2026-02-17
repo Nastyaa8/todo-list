@@ -29,6 +29,6 @@ git clone https://github.com/Nastyaa8/todo-list.git
 
 3. Готово! Можно добавлять и удалять задачи
 
-##Live Demo
+## Live Demo
 
 https://Nastyaa8.github.io/todo-list/
